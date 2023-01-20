@@ -1,0 +1,39 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+/AxiosPokemonAPI/node_modules/
+/AxiosPokemonAPI/axios-pokemon-api/node_modules/
+/Authors/client/node_modules/
+/Authors/server/node_modules/
+/FakerAPI/faker-api/node_modules/
+/First_jsx/first_jsx/node_modules/
+/JokesAPI/node_modules/
+/LukeAPIWalker/node_modules/
+/LukeAPIWalker/luke/node_modules/
+/MoreForms/client/node_modules/
+/ProductManager/client/node_modules/
+/ProductManager/server/node_modules/
+/PuttingItTogether/putting-it-together/node_modules/
+/ToDoList/client/node_modules/
+
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
